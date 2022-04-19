@@ -89,6 +89,11 @@ Once downloaded, open the file in VS Code.
 
 <br>
   
+[MongoDB Screenshot](images/Screenshotmongodb.png)  "MongoDB-Compass-Social-Network-API-DB"
+
+<img src="images/Screenshotmongodb.png">
+
+<br>
 
 [Screenshot1](images/Screenshot1.png)  "Insomnia - Create User"
 
