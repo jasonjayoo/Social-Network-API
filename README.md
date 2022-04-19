@@ -62,7 +62,13 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Video:
 
-[![Video-Link](images/youtubescreenshot.png)](https://youtu.be/eetcYxv2L-Q)
+(Part-One)
+
+[![Part 1](images/youtubescreenshot.png)](https://youtu.be/35Dn1T9RW0s) 
+
+(Part-Two)
+
+[![Part 2](images/youtubescreenshot2.png)](https://youtu.be/JQIym2oGUz4) 
   
   
 <br> 
