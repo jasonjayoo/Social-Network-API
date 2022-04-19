@@ -163,11 +163,8 @@ I would also like to thank my esteemed cohort member Mr. Marcus Lewis for his in
 <br>
 
 ## Author:
-<br>
-Jason Yoo
+                               Jason Yoo
   
-<br>
-<br>
 
 ## Questions:
   For any questions regarding this application, you may reach me directly at jasonjayoo@outlook.com.
