@@ -149,7 +149,9 @@ Do an npm install after cloning down the files, then do npm install express, and
 
 ## Credits:
 <br>
-Much thanks to my brilliant tutor Mr. Faran Navazi for helping me start on a solid foundation for the development of this application.
+I like to thank my amazing instructional staff for help me in this incredible journey of becoming a web developer.
+
+I would also like to thank my esteemed cohort member Mr. Marcus Lewis for his insights and help in the development of this application.
 
 <br>
 <br>
