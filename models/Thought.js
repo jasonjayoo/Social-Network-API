@@ -13,7 +13,7 @@ const thoughtSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: timestamp => dateFormat(timestamp)
+      get: (createdAlVal) => dateFormat(createdAlVal)
     },
     username: {
       type: String,
@@ -24,6 +24,7 @@ const thoughtSchema = new Schema(
   {
     // turns above information into a JSON Formatted DB
     toJSON: {
+      virtuals: true,
       getters: true
     },
     id: false
@@ -36,4 +37,4 @@ thoughtSchema.virtual('reactionCount').get(function() {
 
 const Thought = model('Thought', thoughtSchema);
 
-module.exports = Thought;
+module.exports = { Thought };
