@@ -1,7 +1,7 @@
 const { Thought, User } = require('../models');
 
 const thoughtController = {
-  // get all thoughts
+  // get all thoughts in descending order
   getThoughts(req, res) {
     Thought.find()
       .sort({ createdAt: -1 })
@@ -112,6 +112,7 @@ const thoughtController = {
   removeReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
+      // $pull removes specified reaction
       { $pull: { reactions: { reactionId: req.params.reactionId } } },
       { runValidators: true, new: true }
     )
@@ -126,6 +127,7 @@ const thoughtController = {
         res.status(500).json(err);
       });
   },
+  // add update reaction function****************//
 };
 
 module.exports = thoughtController;

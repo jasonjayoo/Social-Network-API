@@ -4,6 +4,7 @@ const userController = {
   // get all users
   getUsers(req, res) {
     User.find()
+    // version key
       .select('-__v')
       .then((dbUserData) => {
         res.json(dbUserData);

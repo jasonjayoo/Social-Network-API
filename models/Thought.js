@@ -22,6 +22,7 @@ const thoughtSchema = new Schema(
     reactions: [reactionSchema]
   },
   {
+    // turns above information into a JSON Formatted DB
     toJSON: {
       getters: true
     },
